@@ -1,0 +1,20 @@
+OUTPUT OF THE PROGRAM
+1- ./median 6 1 2 3 4 5 6
+   OUTPUT- exit
+2- ./median 5 1 2 3 4 5
+   OUTPUT-3
+
+TIME COMPLEXITY
+
+1: The program is recursive.
+2: It is following divide and conquer stratergy.
+3: It is using partetioning alogorithm which finds the position of pivot and it will divide the list.
+4: We are doing partetion in the middle,so every level is dividing by n/2 and n/2
+           n/2^k=1
+            n=2^k
+        k=logn base 2
+5: Number of levels are log n
+   and at every level is taking n time for comparison
+   so it is O(nlogn)
+ 
+   Time Complexity of the program is O(nlogn)
