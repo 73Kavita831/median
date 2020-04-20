@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<math.h>
 #include<stdlib.h>
-int *quicksort(int number[100],int first,int last)
+int *quicksort(int number[25],int first,int last)
 {
     int i,j,pivot,temp;
     if(first<last)
@@ -38,7 +38,7 @@ printf("compile : gcc median.c -o median\n");
 printf("run : ./median <number of elements> <enter the elements>\n");
 return(1);
 }
-int i,j,count,number[100],*p, mid;
+int i,j,count,number[25],*p, mid;
 count= atoi(argv[1]);
 j=2;
 for(i=0;i<count;i++)
